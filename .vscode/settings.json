@@ -63,6 +63,7 @@
         "queue": "cpp",
         "deque": "cpp",
         "__memory": "cpp",
-        "stack": "cpp"
+        "stack": "cpp",
+        "filesystem": "cpp"
     }
 }
