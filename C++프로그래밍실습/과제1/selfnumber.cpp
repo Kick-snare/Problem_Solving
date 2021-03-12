@@ -1,14 +1,15 @@
 #include <iostream>
 using namespace std;
-bool arr[10000];
+
+bool arr[10000] = {false,};
 
 int d(int n){
-	int tmp = n;
+	int sum = n;
 	while (n){
-		tmp += n%10;
+		sum += n%10;
 		n = n/10;
 	}
-	return tmp;
+	return sum;
 }
 
 int main(){
@@ -16,5 +17,5 @@ int main(){
 		int idx = d(i);
 		if(idx <= 10000) arr[idx-1] = true;
 	}
-	for(int i=1;i<=10000;i++) if(!arr[i-1]) cout << i <<'\n';
+	for(int i=1;i<=10000;i++) if(!arr[i-1]) cout << i << "\n";
 }
