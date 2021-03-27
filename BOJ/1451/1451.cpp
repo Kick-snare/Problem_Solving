@@ -5,7 +5,7 @@ typedef long long int ll;
 
 int N,M;
 char arr[101][101];
-ll result=0, sum[101][101]={0,};
+ll result, sum[101][101];
 
 ll get_sum(int start_x, int start_y, int end_x, int end_y){
     return sum[end_y-1][end_x-1] - sum[end_y-1][start_x-1] - sum[start_y-1][end_x-1] + sum[start_y-1][start_x-1];

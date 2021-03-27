@@ -2,7 +2,7 @@
 #include <algorithm>
 using namespace std;
 
-int n, c, result=0, arr[200000];
+int n, c, result, arr[200000];
 
 bool set_router(int distance){
     int neighborhood = arr[0], cnt=0;
