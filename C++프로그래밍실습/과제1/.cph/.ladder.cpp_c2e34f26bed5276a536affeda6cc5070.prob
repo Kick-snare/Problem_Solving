@@ -1,1 +1,0 @@
-{"name":"Local: ladder","url":"/Users/yoojunhong/Desktop/Problem_Solving/C++프로그래밍실습/과제1/ladder.cpp","tests":[{"id":1615363206440,"input":"3 2\n1 2\n2 3\n1","output":"3"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/yoojunhong/Desktop/Problem_Solving/C++프로그래밍실습/과제1/ladder.cpp","group":"local","local":true}
