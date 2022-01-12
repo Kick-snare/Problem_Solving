@@ -7,3 +7,5 @@
 
 # ignore cph files
 .*.prob
+
+.DS_Store
