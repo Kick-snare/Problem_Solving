@@ -1,1 +1,0 @@
-{"name":"Local: 2675","url":"/Users/yoojunhong/Desktop/Problem_Solving/2675/2675.cpp","tests":[{"id":1617176209842,"input":"2\n3 ABC\n5 /HTP","output":"AAABBBCCC\n/////HHHHHTTTTTPPPPP"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/yoojunhong/Desktop/Problem_Solving/2675/2675.cpp","group":"local","local":true}
